@@ -1,0 +1,15 @@
+{
+	"name": "adfziyodacitycycle1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1c7d1a64-6167-471f-bee9-6c209aa76ac0",
+		"tenantId": "1235ee21-9536-4992-a269-d1e69431f6ce"
+	}
+}

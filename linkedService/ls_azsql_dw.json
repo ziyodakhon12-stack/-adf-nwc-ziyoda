@@ -1,0 +1,15 @@
+{
+	"name": "ls_azsql_dw",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-nwc-dev-ziyoda.database.windows.net",
+			"database": "NWC_DW",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}

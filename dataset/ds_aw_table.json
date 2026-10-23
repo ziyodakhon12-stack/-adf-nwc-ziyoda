@@ -1,0 +1,33 @@
+{
+	"name": "ds_aw_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_onprem_aw",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string",
+				"defaultValue": " @dataset().SchemaName"
+			},
+			"TableName": {
+				"type": "string",
+				"defaultValue": " @dataset().TableName"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().SchemaName",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

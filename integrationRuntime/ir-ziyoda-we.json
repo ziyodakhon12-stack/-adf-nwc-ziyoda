@@ -1,0 +1,19 @@
+{
+	"name": "ir-ziyoda-we",
+	"properties": {
+		"type": "Managed",
+		"description": "Pinned EU runtime for ride data",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 10,
+					"cleanup": false,
+					"customProperties": []
+				}
+			}
+		}
+	}
+}
