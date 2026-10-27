@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfziyodacitycycle1"
+		},
+		"ls_adls_landing_key_accountKey": {
+			"value": ""
+		},
+		"ls_onprem_aw_password": {
+			"value": ""
+		},
+		"ls_adls_landing_key_properties_typeProperties_url": {
+			"value": "https://dlsziyodaland.dfs.core.windows.net/"
+		},
+		"ls_azsql_dw_properties_typeProperties_server": {
+			"value": "sql-nwc-dev-ziyoda.database.windows.net"
+		},
+		"ls_azsql_dw_properties_typeProperties_database": {
+			"value": "NWC_DW"
+		},
+		"ls_blob_finance_sasUri": {
+			"value": ""
+		},
+		"ls_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://kv-ziyoda-adf.vault.azure.net/"
+		},
+		"ls_onprem_aw_properties_typeProperties_server": {
+			"value": "ZIYODA\\SQLEXPRESS"
+		},
+		"ls_onprem_aw_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"ls_onprem_aw_properties_typeProperties_userName": {
+			"value": "adf_reader"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
